@@ -17,23 +17,19 @@ packages:
   - luci-app-commands
   - luci-app-eqos
   - kmod-usb3
-  - luci-app-passwall
+  - luci-app-passwall2
   - luci-app-advanced
   - luci-app-aliddns
-  - luci-app-aria2
   - luci-app-ddns
   - luci-app-ttyd
   - luci-app-wol
   - luci-app-argon-config
   - luci-app-cifs-mount
   - luci-app-cifsd
-  - luci-app-ddnsto
   - luci-app-netspeedtest
-  - luci-app-softether
   - luci-app-sqm
   - luci-app-vlmcsd
   - luci-app-wrtbwmon
-  - luci-app-zerotier
   - iptables-mod-fullconenat
 
 
