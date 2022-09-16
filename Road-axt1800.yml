@@ -6,8 +6,6 @@ feeds:
     path: ../feeds_dir/NueXini
 
 packages:
-  - luci-app-adguardhome
-  - adguardhome
   - dnsmasq-full
   - luci-app-commands
   - kmod-usb-net-rndis
@@ -17,36 +15,22 @@ packages:
   - luci-app-ddns
   - ddns-scripts_aliyun
   - luci-app-commands
-  - luci-app-mwan3
   - luci-app-eqos
-  - wireguard-tools
   - kmod-usb3
   - luci-app-passwall
   - luci-app-advanced
   - luci-app-aliddns
   - luci-app-aria2
   - luci-app-ddns
-  - luci-app-frpc
-  - luci-app-frps
-  - luci-app-tinyproxy
   - luci-app-ttyd
-  - luci-app-uhttpd
-  - luci-app-watchcat
-  - luci-app-wireguard
   - luci-app-wol
-  - luci-app-aliyundrive-fuse
   - luci-app-argon-config
   - luci-app-cifs-mount
   - luci-app-cifsd
   - luci-app-ddnsto
-  - luci-app-mwan3helper
   - luci-app-netspeedtest
   - luci-app-softether
   - luci-app-sqm
-  - luci-app-unblockmusic
-  - luci-app-usb-printer
-  - luci-app-uugamebooster
-  - luci-app-verysync
   - luci-app-vlmcsd
   - luci-app-wrtbwmon
   - luci-app-zerotier
