@@ -17,7 +17,7 @@ packages:
   - luci-app-commands
   - luci-app-eqos
   - kmod-usb3
-  - luci-app-passwall2
+  - luci-app-ssr-plus
   - luci-app-advanced
   - luci-app-aliddns
   - luci-app-ddns
