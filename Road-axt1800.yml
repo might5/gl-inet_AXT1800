@@ -31,7 +31,8 @@ packages:
   - luci-app-vlmcsd
   - luci-app-wrtbwmon
   - iptables-mod-fullconenat
-  - lluci-app-docker
+  - luci-app-docker
+  - luci-app-stroe
 
 
 diffconfig: |
