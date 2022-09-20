@@ -24,14 +24,10 @@ packages:
   - luci-app-ttyd
   - luci-app-wol
   - luci-app-argon-config
-  - luci-app-cifs-mount
-  - luci-app-cifsd
-  - luci-app-netspeedtest
   - luci-app-sqm
   - luci-app-vlmcsd
   - luci-app-wrtbwmon
   - iptables-mod-fullconenat
-  - luci-app-istorex
 
 
 diffconfig: |
