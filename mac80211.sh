@@ -173,7 +173,7 @@ detect_mac80211() {
 		
 		wifiname=""
 		if [ ${devidx} -eq 0 ]; then
-			wifiname="-5G"
+			wifiname="_5G"
 		fi
 
 
@@ -191,8 +191,9 @@ detect_mac80211() {
 			set wireless.default_radio${devidx}.device=radio${devidx}
 			set wireless.default_radio${devidx}.network=lan
 			set wireless.default_radio${devidx}.mode=ap
-			set wireless.default_radio${devidx}.ssid=GL-AXT1800${wifiname}
-			set wireless.default_radio${devidx}.encryption=none
+			set wireless.default_radio${devidx}.ssid=Might${wifiname}
+			set wireless.default_radio${devidx}.encryption=psk2
+			set wireless.default_radio${devidx}.key=zw123456
 			set wireless.radio1.country=US
 			set wireless.radio1.channel=auto
 EOF
