@@ -20,7 +20,7 @@ env:
   CONFIG_FILE: Road-axt1800.yml
   WIFI_CONFIG_FILE: mac80211.sh
   GIT_USER: Road-tech
-  GIT_EMAIL: 496814664@qq.com
+  GIT_EMAIL: 694132654@qq.com
   DIY_P1_SH: add-feeds.sh
   DIY_P2_SH: load-config.sh
   UPLOAD_BIN_DIR: true
@@ -173,7 +173,7 @@ jobs:
       uses: dev-drprasad/delete-older-releases@v0.1.0
       if: env.UPLOAD_RELEASE == 'true' && !cancelled()
       with:
-        keep_latest: 3
+        keep_latest: 10
         delete_tags: true
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
